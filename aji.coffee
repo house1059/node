@@ -29,3 +29,5 @@ module.exports = (robot) ->
             trouble = $(this).text().trim()
             result += "- " + trouble + "\r\n"
           msg.send "#{title}\r\n#{result}"
+
+#コメント行の追加
